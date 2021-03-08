@@ -1,0 +1,216 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="dzvgSh.;iktpm^(t)HeF">Player</variable><variable type="KIND_SpriteKind" id="KP}+qe^b)@U2^Bh[ccIo">Projectile</variable><variable type="KIND_SpriteKind" id="ix@lA*a~[E)R+W@2kVgz">Food</variable><variable type="KIND_SpriteKind" id="kj9=)FVaTa6q:eMR70(b">Enemy</variable><variable id="KT:}bB#+CuI,K`L_{F^l">stopper</variable><variable id="Vr?*Dwi$}j8m31q+!UEn">arrowNumber</variable><variable id="CxPNDk_DaRm7A[WTcjFK">arrowImg</variable><variable id="W^SNw/7Tfjj`~o?OO_Gh">arrowImgs</variable><variable id="J6fYBWSM6f5`(7X{Df:e">arrow</variable><variable id=".f@~9C|G^,VpG~m[U@y^">Dancer</variable><variable id="a^Ue1}eQ|N%n}LTf#ONY">arrowXs</variable></variables><comment id="tN6MnGd`U5yKU#$tr]]P" data="0" x="432" y="22" h="120" w="290">controller.moveSprite(Dancer)</comment><block type="pxt-on-start" id="ik/E+.WogdIofH2[q!^r" x="20" y="20"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="|jMS._-2;:3/]k:5=i{i"><value name="img"><shadow type="background_image_picker" id="-5O:gWcc*{fQnMs^9LuG"><field name="img">img`
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeefeeeeeeeeeefeeeeeeeeeeeeeeefeeeeeeeeeeeeefeeeeeeeeeeeefeeeeeeeeefeeeeeeeeefeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><next><block type="particlesStartScreenAnimation" id="x_jtL0_%P9v`0`MbZ:)W"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><field name="effect">effects.smiles</field><next><block type="variables_set" id="{E?+;%o|uB3Ok;dsvq6q"><field name="VAR" id="W^SNw/7Tfjj`~o?OO_Gh">arrowImgs</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="lists_create_with" id="A`HlX1b-^jRN3ClSi,ZP"><mutation items="4"/><value name="ADD0"><block type="screen_image_picker" id="cK!^2fJn@3yxE2~`S4AT"><field name="img">img`
+. . . . . . . . 8 . . . . . . . 
+. . . . . . . 8 2 8 . . . . . . 
+. . . . . 8 8 2 4 2 8 8 . . . . 
+. . . . 8 2 2 4 4 4 2 2 8 . . . 
+. . . 8 2 4 4 4 4 4 4 4 2 8 . . 
+. . . 8 2 4 4 4 4 4 4 4 2 8 . . 
+. . . 8 2 4 1 1 4 4 4 4 2 8 . . 
+. . . 8 2 1 1 1 1 1 1 4 2 8 . . 
+. . . 8 2 4 1 1 4 4 4 4 2 8 . . 
+. . . 8 2 4 4 4 4 4 4 4 2 8 . . 
+. . . 8 2 4 4 4 4 4 4 4 2 8 . . 
+. . . . 8 2 2 2 2 2 2 2 8 . . . 
+. . . . . 8 8 8 8 8 8 8 . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image3"}}</data></block></value><value name="ADD1"><block type="screen_image_picker" id="f;4(qdvj7@WOX]txYu7M"><field name="img">img`
+. . . . . . . . 8 . . . . . . . 
+. . . . . . . 8 2 8 . . . . . . 
+. . . . . 8 8 2 4 2 8 8 . . . . 
+. . . . 8 2 2 4 4 4 2 2 8 . . . 
+. . . 8 2 4 4 4 1 4 4 4 2 8 . . 
+. . . 8 2 4 4 1 1 1 4 4 2 8 . . 
+. . . 8 2 4 4 1 1 1 4 4 2 8 . . 
+. . . 8 2 4 4 4 1 4 4 4 2 8 . . 
+. . . 8 2 4 4 4 1 4 4 4 2 8 . . 
+. . . 8 2 4 4 4 1 4 4 4 2 8 . . 
+. . . 8 2 4 4 4 1 4 4 4 2 8 . . 
+. . . . 8 2 2 2 2 2 2 2 8 . . . 
+. . . . . 8 8 8 8 8 8 8 . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image4"}}</data></block></value><value name="ADD2"><block type="screen_image_picker" id="dc}W4{7V-Y_1b*#CUGy?"><field name="img">img`
+. . . . . . . . 8 . . . . . . . 
+. . . . . . . 8 2 8 . . . . . . 
+. . . . . 8 8 2 4 2 8 8 . . . . 
+. . . . 8 2 2 4 4 4 2 2 8 . . . 
+. . . 8 2 4 4 4 4 4 4 4 2 8 . . 
+. . . 8 2 4 4 4 4 4 4 4 2 8 . . 
+. . . 8 2 4 4 4 4 1 1 4 2 8 . . 
+. . . 8 2 1 1 1 1 1 1 1 2 8 . . 
+. . . 8 2 4 4 4 4 1 1 4 2 8 . . 
+. . . 8 2 4 4 4 4 4 4 4 2 8 . . 
+. . . 8 2 4 4 4 4 4 4 4 2 8 . . 
+. . . . 8 2 2 2 2 2 2 2 8 . . . 
+. . . . . 8 8 8 8 8 8 8 . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image5"}}</data></block></value><value name="ADD3"><block type="screen_image_picker" id="G8wV?3n9:qRe:]Mq1gSY"><field name="img">img`
+. . . . . . . . 8 . . . . . . . 
+. . . . . . . 8 2 8 . . . . . . 
+. . . . . 8 8 2 4 2 8 8 . . . . 
+. . . . 8 2 2 4 4 4 2 2 8 . . . 
+. . . 8 2 4 4 4 1 4 4 4 2 8 . . 
+. . . 8 2 4 4 4 1 4 4 4 2 8 . . 
+. . . 8 2 4 4 4 1 4 4 4 2 8 . . 
+. . . 8 2 4 4 1 1 1 4 4 2 8 . . 
+. . . 8 2 4 4 1 1 1 4 4 2 8 . . 
+. . . 8 2 4 4 4 1 4 4 4 2 8 . . 
+. . . 8 2 4 4 4 4 4 4 4 2 8 . . 
+. . . . 8 2 2 2 2 2 2 2 8 . . . 
+. . . . . 8 8 8 8 8 8 8 . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image6"}}</data></block></value></block></value><next><block type="variables_set" id="wocu.MA`lAFa,bY`[TN6"><field name="VAR" id="a^Ue1}eQ|N%n}LTf#ONY">arrowXs</field><value name="VALUE"><block type="lists_create_with" id="O~U+-QZ{XFy6UnGPUo9."><mutation items="4"/><value name="ADD0"><shadow type="math_number" id="$=Z*]WPAzQRJ/2Ab%t*3"><field name="NUM">35</field></shadow></value><value name="ADD1"><shadow type="math_number" id="uw!1[w2N:4W=YXQAq(@P"><field name="NUM">65</field></shadow></value><value name="ADD2"><shadow type="math_number" id="%=/JJxfj=[F!L*59Ed/s"><field name="NUM">95</field></shadow></value><value name="ADD3"><shadow type="math_number" id="D6.FjRGA~JSnzzo*n%nG"><field name="NUM">125</field></shadow></value></block></value><next><block type="function_call" id="57].+TY}NS}0^|}R,9Td"><mutation name="setUpStopper" functionid="NJL|21ANbtgW5N$[){a$"/><next><block type="variables_set" id="ijPEag@Kp$3#x,.cc*En"><field name="VAR" id=".f@~9C|G^,VpG~m[U@y^">Dancer</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="8P+$$zi(9@`A|je6j5d$"><value name="img"><shadow type="screen_image_picker" id="5Zn1J?3E+H]Xdz.@`G1E"><field name="img">img`
+.....f......f.......
+.....f......f.......
+....f77777777f......
+...f7777777777f.....
+...f7777777777f.....
+...f7777777777f.....
+..f777777777777f....
+..f777777777777f....
+..f777777777777f....
+..f777777777777f....
+..ff7777777777ff....
+..ffffffffffffff....
+..fff........fff....
+..fff........fff....
+..fff........fff....
+..fff........fff....
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image7"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="HUsPenhu=aL*~LgO#Bb7"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="Sprite_blockCombine_set" id="sh98O#/UL.M|:OmT2c%I"><field name="property">Sprite.y@set</field><comment>Dancer.setFlag(SpriteFlag.ShowPhysics, true)</comment><value name="mySprite"><block type="variables_get" id="hBNT)/W#n_@!AI^!D(*Y"><field name="VAR" id=".f@~9C|G^,VpG~m[U@y^">Dancer</field></block></value><value name="value"><shadow type="math_number" id="8rkGRb}Y=xqJH7|eJ}hj"><field name="NUM">78</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="~{7(wv45!BSAv)SBQhRX" x="1127" y="20"><mutation name="setUpStopper" functionid="NJL|21ANbtgW5N$[){a$"/><field name="function_name">setUpStopper</field><statement name="STACK"><block type="variables_set" id="*eII-6kJ|@6Nx$ipm#rh"><field name="VAR" id="KT:}bB#+CuI,K`L_{F^l">stopper</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="aX1,*.vU3Pb$l9QLG~(n"><value name="img"><shadow type="screen_image_picker" id="vVFl@kok$40n9[*[/{|T"><field name="img">img`
+1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image2"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="26WPOyk}/uXFB{cC|(Fx"><field name="MEMBER">Enemy</field></shadow></value></block></value><next><block type="spritesetpos" id="%m%Cuoc[eGK@a.RliY(d"><value name="sprite"><block type="variables_get" id="GNteMmr.}LJICyz/wf26"><field name="VAR" id="KT:}bB#+CuI,K`L_{F^l">stopper</field></block></value><value name="x"><shadow type="positionPicker" id="D8M)@;QCDyEG-A5D#Y4."><field name="index">80</field></shadow></value><value name="y"><shadow type="positionPicker" id="{]lC#u6g-p=7ArK-FLMZ"><field name="index">116</field></shadow></value><next><block type="run_image_animation" id="(-/ttBzB)Hd+o/;q=!0i"><value name="sprite"><shadow type="variables_get" id="I*7m)8`Hb`3OmYzln_:U"><field name="VAR" id="KT:}bB#+CuI,K`L_{F^l">stopper</field></shadow></value><value name="frames"><shadow type="animation_editor" id="XIrZopIM/N|V+*lJj8eL"><field name="frames">[img`
+1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+`,img`
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+`]</field><data>{"commentRefs":[],"fieldData":{"frames":"myAnimations.anim1"}}</data></shadow></value><value name="frameInterval"><shadow type="timePicker" id="3h?F:piy[B_ZBKNT=n8y"><field name="ms">200</field></shadow></value><value name="loop"><shadow type="toggleOnOff" id="QgEXeU%3}a$LOtnuQX2e"><field name="on">true</field></shadow></value></block></next></block></next></block></statement></block><block type="function_definition" id="3}5*/-(=qQzX/qn96?ZN" x="20" y="487"><mutation name="makeArrow" functionid="+.D|D_s/$Mz1mK[IDM!3"/><field name="function_name">makeArrow</field><statement name="STACK"><block type="variables_set" id="7?z^S^-Lv=l!gWra=zr."><field name="VAR" id="Vr?*Dwi$}j8m31q+!UEn">arrowNumber</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="$cD9#bXDh@]bUN!sBRs8"><value name="min"><shadow type="math_number" id="hpFa5Qu[kDa/7H^B^*=~"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="c5SBUZLGgB5:sUQ5{i`d"><field name="NUM">3</field></shadow></value></block></value><next><block type="variables_set" id="USrQ!899a:KHJA=`*yIv"><field name="VAR" id="CxPNDk_DaRm7A[WTcjFK">arrowImg</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="lists_index_get" id="Xm9^{oc/)NE_wTifS=x*"><value name="LIST"><block type="variables_get" id="`MFX=Hlv0dFxU4n+AL0]"><field name="VAR" id="W^SNw/7Tfjj`~o?OO_Gh">arrowImgs</field></block></value><value name="INDEX"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="!26A^}W,%MO.[L:3MVTi"><field name="VAR" id="Vr?*Dwi$}j8m31q+!UEn">arrowNumber</field></block></value></block></value><next><block type="variables_set" id="aH#I^IFPy7ppvOh(TU52"><field name="VAR" id="J6fYBWSM6f5`(7X{Df:e">arrow</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="1vMTaO~K$!0mCv_!l}f/"><value name="img"><shadow type="screen_image_picker"/><block type="variables_get" id="aIjpl-Z=TkrAF2+cCrAe"><field name="VAR" id="CxPNDk_DaRm7A[WTcjFK">arrowImg</field></block></value><value name="kind"><shadow type="spritekind" id="?;?}dcjzl}r;B7c(,O#J"><field name="MEMBER">Food</field></shadow></value></block></value><next><block type="Sprite_blockCombine_set" id="KA43FnjKq+/JyH;U(o;U"><field name="property">Sprite.y@set</field><value name="mySprite"><block type="variables_get" id=";e(h1$N^GAUus2cG+9#i"><field name="VAR" id="J6fYBWSM6f5`(7X{Df:e">arrow</field></block></value><value name="value"><shadow type="math_number" id="s[`+u/3ffD;.pbM!sh%6"><field name="NUM">0</field></shadow></value><next><block type="Sprite_blockCombine_set" id="xL:j836fj.t[Zd7qbW$!"><field name="property">Sprite.vy@set</field><value name="mySprite"><block type="variables_get" id="]3,q5N=}50=,`Rdw{5V^"><field name="VAR" id="J6fYBWSM6f5`(7X{Df:e">arrow</field></block></value><value name="value"><shadow type="math_number" id="NRkLd5#:k)~!0lX?_LlW"><field name="NUM">50</field></shadow></value></block></next></block></next></block></next></block></next></block></statement></block><block type="gameinterval" id=";t;yzSFC[pZ1[8QJ5;_m" x="650" y="510"><value name="period"><shadow type="timePicker" id="~`4Se[0?FI(00U$YsJ@C"><field name="ms">1000</field></shadow></value><statement name="HANDLER"><block type="function_call" id="aZGhB?f{x]%^paT|YM~)"><mutation name="makeArrow" functionid="+.D|D_s/$Mz1mK[IDM!3"/></block></statement></block></xml>
